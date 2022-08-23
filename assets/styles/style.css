@@ -1,0 +1,198 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+/*untuk pengaturan tulisan ditengah bagian my personal information*/
+.wrapperlah {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    background-color: #fca311;    
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+section .tengah {
+    margin: auto;
+    /* kalau margin bottom sebagai jarak antara teks satu dengan yang lain */
+    background-color: #14213d;
+    padding: 10px;
+}
+
+.pelayanan {
+    width: 4000px;
+    margin: 1px;
+    padding: 5px;
+    box-sizing: center;
+}
+
+.pelayanan2 {
+    width: 3500px;
+    margin: 1px;
+    padding: 5px;
+    line-height: 2em;
+}
+
+.pelayanan4 {
+    width: 1000px;
+    height: 150px;
+    border: 5px;
+    margin: 1px;
+
+}
+
+.pelayanan5 {
+    width: 1000px;
+    border: 5px;
+    margin: 1px;
+
+}
+
+/* bagian bawah di kotak informasi sosmed */
+
+footer {
+    margin: auto;
+    display: flex;   
+    justify-content: center;    
+    padding: 40px; 
+    text-align: center;
+}
+
+footer .fotodua {
+    width: 110px;
+    margin: auto;
+    height: 15vh;
+}
+
+.image-resize {
+    height: 100px;
+    object-fit: cover;
+    object-position: center center;
+    display: flex;
+}
+
+footer .fototiga{
+    width: 110px;
+    height: 10vh;
+    display: flex;   
+}
+
+.image-resize2 {
+    height: 100px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+footer .fotoempat {
+    width: 120px;
+    height: 15vh;
+    display: flex;
+    margin: auto;
+}
+
+.image-resize3 {
+    height: 100px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah {
+    text-align: center;
+    font-family: 'comin sans m';
+}
+
+.fotosatu {
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* ini bagian dari setting ukuran foto andre juan simanjuntak */
+.fotosatu img {
+    width: 50%;
+    border-radius: 700%;
+}
+
+.fotosatu p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.fotosatu h3 {
+    font-family: 'Calibri';
+    font-weight: 100; 
+    color: #ffffff;
+}   
+
+.started {
+    font-family: 'comic sans ms';
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 991.98px) {  
+    section {
+        display: block;   
+        width: 100%;
+        height: 50%
+    }
+
+    .wrapperlah h1 {
+        text-align: center;
+    }
+
+    .pelayanan {
+        width: 100%;
+    }
+
+    .pelayanan4 {
+        margin: -5%;
+        width: 50%;
+    }
+
+    .pelayanan2 {
+        width: 100%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .pelayanan5 {
+        width: 100%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
